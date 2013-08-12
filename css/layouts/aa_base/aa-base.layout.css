@@ -1,0 +1,210 @@
+/*******************************************************************************
+ * _layout.scss
+ *
+ * Styling of the "simple" layout demonstrating the Compass grid extension Susy
+ * and building mobile first layouts.
+ ******************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000323}}
+#block-system-main-menu ul {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000325}}
+#block-system-main-menu ul li {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000349}}
+.l-header,
+.l-main,
+.l-footer {
+  *zoom: 1;
+  max-width: 58em;
+  _width: 58em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: "px";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.l-header:after,
+.l-main:after,
+.l-footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 59em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000349}}
+  .l-header,
+  .l-main,
+  .l-footer {
+    max-width: 58em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000358}}
+.l-region--highlighted,
+.l-region--help,
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  margin-bottom: "px";
+}
+
+@media (min-width: 59em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000372}}
+  .l-branding {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000375}}
+  .l-branding .site-logo img {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000379}}
+  .l-region--navigation {
+    width: 83.05085%;
+    float: right;
+    margin-right: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000312}}
+  #block-system-main-menu ul {
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000314}}
+  #block-system-main-menu ul li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000386}}
+  .sidebar-first .l-content {
+    width: 66.10169%;
+    float: right;
+    margin-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000389}}
+  .sidebar-first .l-region--sidebar-first {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000398}}
+  .l-content {
+    clear: both;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\00003102}}
+  .view-preview .views-row {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/susy-1\.0\.9\/sass\/susy\/_grid\.scss}line{font-family:\00003184}}
+  .view-preview .views-row:nth-child(3n) {
+    float: right;
+    margin-right: 0;
+  }
+}
+/*
+.l-region--highlighted,
+.l-region--help,
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  margin-bottom: $vert-spacing-unit;
+}
+
+@include at-breakpoint($tab) { // At a given Susy Media Layout, use a given amount of columns.
+  .l-header,
+  .l-main,
+  .l-footer {
+    @include set-container-width; // Reset only the container width (elements have already been declared as containers).
+    @include susy-grid-background; // Show the columns for debugging.
+  }
+
+  .l-branding {
+    @include span-columns(4, 12); // Span 4 out of 12 columns.
+  }
+  .l-region--header{
+    @include span-columns(8 omega, 12); // Span the last (omega) 8 columns of 12.
+  }
+  .l-region--navigation {
+    clear: both;
+  }
+
+  .sidebar-first,
+  .sidebar-second,
+  .two-sidebars {
+    .l-content {
+      @include span-columns(8, 12); // Span 8 out of 12 columns.
+    }
+    .l-region--sidebar-first,
+    .l-region--sidebar-second {
+      @include span-columns(4 omega, 12); // Span the last (omega) 4 columns of 12.
+    }
+    .l-region--sidebar-second {
+      clear: right;
+    }
+  }
+}
+
+@include at-breakpoint($desk) {
+  .l-header,
+  .l-main,
+  .l-footer {
+    @include set-container-width; // Reset only the container width (elements have already been declared as containers).
+    @include susy-grid-background; // Show the columns for debugging.
+  }
+
+  .l-branding {
+    @include span-columns(6, 16); // Span 6 out of 16 columns.
+  }
+  .l-region--header{
+    @include span-columns(10 omega, 16); // Span the last (omega) 10 columns of 16.
+  }
+
+  .sidebar-first {
+    .l-content {
+      @include span-columns(12 omega, 16); // Span the last (omega) 12 columns of 16.
+    }
+    .l-region--sidebar-first {
+      @include span-columns(4, 16); // Span 4 out of 16 columns.
+    }
+  }
+  .sidebar-second {
+    .l-content {
+      @include span-columns(12, 16); // Span 12 out of 16 columns.
+    }
+    .l-region--sidebar-second {
+      @include span-columns(4 omega, 16); // Span the last (omega) 12 columns of 16.
+      clear: none;
+    }
+  }
+
+  .two-sidebars {
+    .l-content {
+      @include span-columns(8, 16); // Span 12 out of 16 columns.
+      @include push(4, 16);  // Push element by adding 4 out of 16 columns of left margin.
+    }
+    .l-region--sidebar-first,
+    .l-region--sidebar-second {
+      @include span-columns(4, 16); // Span 4 out of 16 columns.
+    }
+    .l-region--sidebar-first {
+      @include pull(12, 16); // Pull element by adding 12 out of 16 columns of negative left margin.
+    }
+    .l-region--sidebar-second {
+      @include omega; // This element spans the last (omega) column.
+      clear: none;
+    }
+  }
+}
+*/

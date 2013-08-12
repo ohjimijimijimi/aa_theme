@@ -1,0 +1,189 @@
+// Load utility, base and components.
+@import "partials/utility";
+@import "partials/base";
+@import "partials/layout";
+@import "partials/components";
+
+@import "compass/typography/links/link-colors";
+@import "compass/typography/links/hover-link";
+@import "layouts/aa_base/aa-base.layout";
+
+$unit: 1em;
+
+@mixin section-border($color, $height: 3px) {
+  &:after {
+    content: ".";
+    display: block;
+    text-indent: -9999;
+    background-color: $color;
+    width: 100%;
+    height: $height;
+  }
+}
+
+@mixin navigation-style($font: '', $font_size: 1.5em, $padding: true, $selector: '#block-system-main-menu') {
+  #{$selector} ul.menu li a {
+    display: block;
+    @if $font != '' { font-family: #{$font}; }
+    font-weight: 700;
+    font-size: #{$font_size};
+    @if $padding { padding: ($font_size $font_size / 3) }
+  }
+}
+
+a { 
+  @include link-colors(#333, #999, #666, #000, #999);
+  @include hover-link; 
+}
+
+
+// node style
+.node {
+	.field--type-taxonomy-term-reference {
+	  .field__items {
+	    @include delimited-list();
+	  }
+	}
+}
+
+// set the right property to picture images
+span[data-picture] img {
+  width: 100%;
+  height: auto;
+}
+
+// Logo width
+.site-logo img {
+  width: columns(1,5);
+}
+
+@include navigation-style('', 1.5em, false);
+
+// Set the view Preview style
+.view-preview h2 {
+  font-size: $unit;
+}
+
+.view-preview .views-field-field-preview-caption {
+  font-size: percentage(0.8);
+  margin-bottom: $unit;
+}
+
+// Set the view Upcoming style
+.view-upcoming .views-row  {
+  .views-field {
+    //@include inline-block();
+    text-align: center;
+  }
+  
+  .views-field-field-upcoming-date {
+    @include span-columns(1, 5);
+    font-size: $unit * 1.5;
+    font-weight: 700;
+    padding: $unit * 0.25;
+  }
+  
+  .views-field-nothing {
+    @include span-columns(3, 5);
+    text-align: left;
+    .field-upcoming-title {
+      font-weight: 700;
+    }
+    .field-upcoming-caption {
+      font-size: $unit * 0.8;
+    }
+  }
+  
+  .views-field-field-upcoming-link {
+    @include span-columns(1 omega, 5);
+    padding: $unit * 0.25;
+  }
+}
+
+.l-header {
+  border-bottom: 1px solid #000;
+  margin-bottom: $unit;
+}
+
+#breadcrumb {
+  ul {
+    @include delimited-list(">");
+    @include horizontal-list();
+    li a { font-size: $unit * 0.8; }
+    
+    li:after {
+      padding-left: 8px;
+    }
+  }
+  @include clearfix();
+}
+  
+
+// set footer style
+.l-footer {
+  border-top: 1px solid #000;
+  padding-top: $unit;
+  margin-top: $unit;
+  
+	.view-social {
+	   text-align: center;
+	  .views-row {
+	    @include inline-block();
+	  }
+	}
+	
+	//@include inline-menu('#block-menu-menu-footer');
+	#block-menu-menu-footer {
+	  ul {
+	    @include inline-block-list();
+	    text-align: center;
+	    li a {
+	      padding: $unit + $unit * 0.25; 
+	      display: block;
+	    }
+	  }
+	  text-transform: uppercase;
+	}
+}
+
+// ********** desktop **********
+@include at-breakpoint($break) {
+  
+  // set the logo
+  .l-branding {    
+    .site-logo img {
+      width: columns(2, 2);
+    }
+  }
+  
+  // main menu
+  @include navigation-style();
+  
+  // Set the view Upcoming style
+	.view-upcoming .views-row  {	  
+	  .views-field-field-upcoming-date {
+	    @include span-columns(1, 12);
+	  }
+	  
+	  .views-field-nothing {
+	    @include span-columns(10, 12);
+	  }
+	  
+	  .views-field-field-upcoming-link {
+	    @include span-columns(1 omega, 12);
+	  }
+	}
+	
+	.l-footer {
+	  .view-social {
+	    @include span-columns(8, 12);
+	    text-align: left;
+	  } 
+	  
+	  #block-menu-menu-footer {
+	    
+	  }
+	}
+	
+  
+}

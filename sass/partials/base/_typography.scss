@@ -1,0 +1,43 @@
+@mixin web-font($font_name, $styles) {
+  $url: "http://fonts.googleapis.com/css?family=";
+  
+  $num_words: length($font_name);
+  @if $num_words > 1 {
+    $i: 0;
+		@each $word in $font_name {
+		  $url: $url + $word;
+		  @if $i < $num_words - 1 {
+		    $url: $url + '+';
+		  }
+		  $i: $i + 1;
+		}
+	} @else {
+	  $url: $url + $font_name;
+	}
+	
+	$num_styles: length($styles);
+	@if $num_styles > 0 {
+	  $url: $url + ":";
+	  $i: 0;
+  	@each $style in $styles {
+	    $url: $url + $style;
+	    @if $i < $num_styles - 1 {
+	      $url: $url + ",";
+	    }
+	  }
+	}
+	
+	@import url(#{$url});
+}
+
+@include web-font(Open Sans, (300,400,600,700,800,i300,i400,i600,i700,i800));
+@include web-font(Istok Web, (400,700,i400,i700));
+@include web-font(Overlock, (400,700,900,i400,i700,i900));
+@include web-font(Average Sans, 400);
+@include web-font(Montaga, 400);
+@include web-font(HeadLand One, 400);
+@include web-font(Cambo, 400);
+
+html, button, input, select, textarea {
+  font-family: "Cambo", sans-serif;
+}
