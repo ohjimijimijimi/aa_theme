@@ -8,7 +8,7 @@
 @import "compass/typography/links/hover-link";
 @import "layouts/aa_base/aa-base.layout";
 
-$unit: 1em;
+$u: 1em;
 
 @mixin section-border($color, $height: 3px) {
   &:after {
@@ -21,13 +21,13 @@ $unit: 1em;
   }
 }
 
-@mixin navigation-style($font: '', $font_size: 1.5em, $padding: true, $selector: '#block-system-main-menu') {
+@mixin navigation-style($font: '', $font_size: 1.5em, $padding: true, $padding_v: 1.5em, $padding_h: 0.5em, $selector: '#block-system-main-menu') {
   #{$selector} ul.menu li a {
     display: block;
     @if $font != '' { font-family: #{$font}; }
     font-weight: 700;
     font-size: #{$font_size};
-    @if $padding { padding: ($font_size $font_size / 3) }
+    @if $padding { padding: ($padding_v $padding_h) }
   }
 }
 
@@ -61,12 +61,12 @@ span[data-picture] img {
 
 // Set the view Preview style
 .view-preview h2 {
-  font-size: $unit;
+  font-size: $u;
 }
 
 .view-preview .views-field-field-preview-caption {
   font-size: percentage(0.8);
-  margin-bottom: $unit;
+  margin-bottom: $u;
 }
 
 // Set the view Upcoming style
@@ -78,9 +78,9 @@ span[data-picture] img {
   
   .views-field-field-upcoming-date {
     @include span-columns(1, 5);
-    font-size: $unit * 1.5;
+    font-size: $u * 1.5;
     font-weight: 700;
-    padding: $unit * 0.25;
+    padding: $u * 0.25;
   }
   
   .views-field-nothing {
@@ -90,26 +90,26 @@ span[data-picture] img {
       font-weight: 700;
     }
     .field-upcoming-caption {
-      font-size: $unit * 0.8;
+      font-size: $u * 0.8;
     }
   }
   
   .views-field-field-upcoming-link {
     @include span-columns(1 omega, 5);
-    padding: $unit * 0.25;
+    padding: $u * 0.25;
   }
 }
 
 .l-header {
   border-bottom: 1px solid #000;
-  margin-bottom: $unit;
+  margin-bottom: $u;
 }
 
 #breadcrumb {
   ul {
     @include delimited-list(">");
     @include horizontal-list();
-    li a { font-size: $unit * 0.8; }
+    li a { font-size: $u * 0.8; }
     
     li:after {
       padding-left: 8px;
@@ -122,8 +122,8 @@ span[data-picture] img {
 // set footer style
 .l-footer {
   border-top: 1px solid #000;
-  padding-top: $unit;
-  margin-top: $unit;
+  padding-top: $u;
+  margin-top: $u;
   
 	.view-social {
 	   text-align: center;
@@ -138,7 +138,7 @@ span[data-picture] img {
 	    @include inline-block-list();
 	    text-align: center;
 	    li a {
-	      padding: $unit + $unit * 0.25; 
+	      padding: $u + $u * 0.25; 
 	      display: block;
 	    }
 	  }
@@ -151,13 +151,20 @@ span[data-picture] img {
   
   // set the logo
   .l-branding {    
-    .site-logo img {
-      width: columns(2, 2);
-    }
+    //.site-logo img {
+    //  width: columns(1, 1);
+    //}
   }
   
   // main menu
-  @include navigation-style();
+  @include navigation-style('', $u*1.5, true, $u*0.5, $u*0.5);
+  
+  // view projects: sidebar menu when inside a node
+  .view-projects {
+    ul {
+      padding: 0 0 0 $u;
+    }
+  }
   
   // Set the view Upcoming style
 	.view-upcoming .views-row  {	  

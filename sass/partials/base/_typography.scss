@@ -32,12 +32,12 @@
 
 @include web-font(Open Sans, (300,400,600,700,800,i300,i400,i600,i700,i800));
 @include web-font(Istok Web, (400,700,i400,i700));
-@include web-font(Overlock, (400,700,900,i400,i700,i900));
+//@include web-font(Overlock, (400,700,900,i400,i700,i900));
 @include web-font(Average Sans, 400);
 @include web-font(Montaga, 400);
-@include web-font(HeadLand One, 400);
+//@include web-font(HeadLand One, 400);
 @include web-font(Cambo, 400);
 
 html, button, input, select, textarea {
-  font-family: "Cambo", sans-serif;
+  font-family: "Istok Web", sans-serif;
 }

@@ -30,6 +30,7 @@
 }
 
 $unit: 1em;
+$u: 1em;
 $unit-fixed: 10px;
 
 $total-columns: 5;
@@ -73,7 +74,7 @@ $break: 12;
     @include span-columns(2, 12); // Span 4 out of 12 columns.
 	  
 	  .site-logo img {
-	    width: columns(2, 2);
+	    width: $u * 6;
     }
   }
   .l-region--navigation {
@@ -84,10 +85,10 @@ $break: 12;
 
   .sidebar-first {
     .l-content {
-      @include span-columns(8 omega, 12); // Span the last (omega) 8 columns of 12.
+      @include span-columns(9 omega, 12); // Span the last (omega) 8 columns of 12.
     }
     .l-region--sidebar-first {
-      @include span-columns(4, 12); // Span 4 out of 12 columns.
+      @include span-columns(3, 12); // Span 4 out of 12 columns.
     }
   }
 	

@@ -13,7 +13,7 @@
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000350}}
 .l-header,
 .l-main,
 .l-footer {
@@ -35,7 +35,7 @@
   clear: both;
 }
 @media (min-width: 59em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000350}}
   .l-header,
   .l-main,
   .l-footer {
@@ -43,7 +43,7 @@
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000359}}
 .l-region--highlighted,
 .l-region--help,
 .l-region--sidebar-first,
@@ -52,18 +52,18 @@
 }
 
 @media (min-width: 59em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000373}}
   .l-branding {
     width: 15.25424%;
     float: left;
     margin-right: 1.69492%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000376}}
   .l-branding .site-logo img {
-    width: 100%;
+    width: 6em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000380}}
   .l-region--navigation {
     width: 83.05085%;
     float: right;
@@ -84,25 +84,25 @@
     *display: inline;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000387}}
   .sidebar-first .l-content {
-    width: 66.10169%;
+    width: 74.57627%;
     float: right;
     margin-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000390}}
   .sidebar-first .l-region--sidebar-first {
-    width: 32.20339%;
+    width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\0000399}}
   .l-content {
     clear: both;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/layouts\/aa_base\/aa-base\.layout\.scss}line{font-family:\00003103}}
   .view-preview .views-row {
     width: 32.20339%;
     float: left;
