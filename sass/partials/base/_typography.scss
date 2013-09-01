@@ -30,13 +30,25 @@
 	@import url(#{$url});
 }
 
-@include web-font(Open Sans, (300,400,600,700,800,i300,i400,i600,i700,i800));
+//@include web-font(Varela, (300,400,600,700,800,i300,i400,i600,i700,i800));
 @include web-font(Istok Web, (400,700,i400,i700));
-//@include web-font(Overlock, (400,700,900,i400,i700,i900));
+//@include web-font(Roboto, (300,400,700,i300,i400,i700,i900));
 @include web-font(Average Sans, 400);
-@include web-font(Montaga, 400);
-//@include web-font(HeadLand One, 400);
+//@include web-font(Actor, 400);
+//@include web-font(Oxygen, (300,400,700));
+//@include web-font(Quattrocento Sans, (400,700,i400,i700));
+//@include web-font(Alice, 400);
+//@include web-font(Libre Baskerville, (400,700,i400));
+@include web-font(Lato, (300,400,700,i300,i400,i700));
+//@include web-font(Josefin Sans, (300,400,700,i300,i400,i700));
+//@include web-font(Marcellus, 400);
+//@include web-font(Duru Sans, 400);
+//@include web-font(Didact Gothic, 400);
+//@include web-font(Maven Pro, (400,700));
+//@include web-font(Tenor Sans, 400);
 @include web-font(Cambo, 400);
+
+
 
 html, button, input, select, textarea {
   font-family: "Istok Web", sans-serif;

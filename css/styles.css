@@ -1,7 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,i300,i400,i600,i700,i800,);
 @import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700,i400,i700,);
 @import url(http://fonts.googleapis.com/css?family=Average+Sans:400);
-@import url(http://fonts.googleapis.com/css?family=Montaga:400);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,i300,i400,i700,);
 @import url(http://fonts.googleapis.com/css?family=Cambo:400);
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/partials\/base\/_root\.scss}line{font-family:\000034}}
 * {
@@ -16,7 +15,7 @@
   *zoom: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000353}}
 html, button, input, select, textarea {
   font-family: "Istok Web", sans-serif;
 }
@@ -235,14 +234,14 @@ img, media {
   }
 }
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000341}}
 a {
-  color: #333333;
+  color: #21bcbe;
   text-decoration: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
 a:visited {
-  color: black;
+  color: #188a8c;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
 a:focus {
@@ -261,7 +260,7 @@ a:hover {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000350}}
 .node .field--type-taxonomy-term-reference .field__items {
   list-style-type: none;
 }
@@ -284,64 +283,107 @@ a:hover {
   content: "";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000357}}
 span[data-picture] img {
   width: 100%;
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000363}}
 .site-logo img {
   width: 16.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000326}}
 #block-system-main-menu ul.menu li a {
+  color: black;
   display: block;
   font-weight: 700;
   font-size: 1.5em;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
+#block-system-main-menu ul.menu li a:visited {
+  color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
+#block-system-main-menu ul.menu li a:focus {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
+#block-system-main-menu ul.menu li a:hover {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
+#block-system-main-menu ul.menu li a:active {
+  color: #666666;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000336}}
+#block-system-main-menu ul.menu li + li {
+  margin-left: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000370}}
 .view-preview h2 {
   font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000375}}
+.view-preview .views-field-field-preview-title h2 {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000380}}
 .view-preview .views-field-field-preview-caption {
   font-size: 80%;
   margin-bottom: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000386}}
+.view-upcoming .views-row + .views-row {
+  margin-top: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000391}}
 .view-upcoming .views-row .views-field {
   text-align: center;
+  min-height: 3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000398}}
 .view-upcoming .views-row .views-field-field-upcoming-date {
   width: 16.66667%;
   float: left;
   margin-right: 4.16667%;
-  font-size: 1.5em;
   font-weight: 700;
   padding: 0.25em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003102}}
+.view-upcoming .views-row .views-field-field-upcoming-date .date-year {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003106}}
+.view-upcoming .views-row .views-field-field-upcoming-date .date-month {
+  font-size: 0.9em;
+  line-height: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003112}}
 .view-upcoming .views-row .views-field-nothing {
   width: 58.33333%;
   float: left;
   margin-right: 4.16667%;
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003115}}
 .view-upcoming .views-row .views-field-nothing .field-upcoming-title {
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003118}}
 .view-upcoming .views-row .views-field-nothing .field-upcoming-caption {
   font-size: 0.8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003123}}
 .view-upcoming .views-row .views-field-field-upcoming-link {
   width: 16.66667%;
   float: right;
@@ -350,18 +392,19 @@ span[data-picture] img {
   padding: 0.25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003129}}
 .l-header {
   border-bottom: 1px solid #000;
-  margin-bottom: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003135}}
 #breadcrumb {
   overflow: hidden;
   *zoom: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003136}}
 #breadcrumb ul {
   list-style-type: none;
   margin: 0;
@@ -411,26 +454,26 @@ span[data-picture] img {
 #breadcrumb ul li.last {
   padding-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003139}}
 #breadcrumb ul li a {
   font-size: 0.8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003141}}
 #breadcrumb ul li:after {
   padding-left: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003150}}
 .l-footer {
   border-top: 1px solid #000;
   padding-top: 1em;
   margin-top: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003155}}
 .l-footer .view-social {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003157}}
 .l-footer .view-social .views-row {
   display: -moz-inline-stack;
   display: inline-block;
@@ -439,11 +482,11 @@ span[data-picture] img {
   zoom: 1;
   *display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003163}}
 .l-footer #block-menu-menu-footer {
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003164}}
 .l-footer #block-menu-menu-footer ul {
   margin: 0;
   padding: 0;
@@ -465,46 +508,92 @@ span[data-picture] img {
   *display: inline;
   white-space: nowrap;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003167}}
 .l-footer #block-menu-menu-footer ul li a {
   padding: 1.25em;
   display: block;
 }
 
 @media (min-width: 59em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000326}}
   #block-system-main-menu ul.menu li a {
+    color: black;
     display: block;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.4em;
+    text-transform: uppercase;
     padding: 0.5em 0.5em;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
+  #block-system-main-menu ul.menu li a:visited {
+    color: black;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
+  #block-system-main-menu ul.menu li a:focus {
+    color: #999999;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
+  #block-system-main-menu ul.menu li a:hover {
+    color: #999999;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
+  #block-system-main-menu ul.menu li a:active {
+    color: #666666;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\0000336}}
+  #block-system-main-menu ul.menu li + li {
+    margin-left: 1em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003188}}
+  #block-system-main-menu {
+    margin-top: 19px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003194}}
   .view-projects ul {
     padding: 0 0 0 1em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003202}}
+  .view-upcoming .views-row {
+    overflow: hidden;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003205}}
   .view-upcoming .views-row .views-field-field-upcoming-date {
     width: 6.77966%;
     float: left;
     margin-right: 1.69492%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003209}}
   .view-upcoming .views-row .views-field-nothing {
     width: 83.05085%;
     float: left;
     margin-right: 1.69492%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003213}}
   .view-upcoming .views-row .views-field-field-upcoming-link {
     width: 6.77966%;
     float: right;
     margin-right: 0;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003215}}
+  .view-upcoming .views-row .views-field-field-upcoming-link a {
+    color: #f00;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003222}}
+  .l-content h1 {
+    margin: 1em 0 0 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003227}}
+  .l-content, .l-header {
+    overflow: hidden;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/aliceanselmi\/site\/sites\/all\/themes\/aa_theme\/sass\/styles\.scss}line{font-family:\00003232}}
   .l-footer .view-social {
     width: 66.10169%;
     float: left;

@@ -21,18 +21,25 @@ $u: 1em;
   }
 }
 
-@mixin navigation-style($font: '', $font_size: 1.5em, $padding: true, $padding_v: 1.5em, $padding_h: 0.5em, $selector: '#block-system-main-menu') {
+@mixin navigation-style($font: '', $font_size: 1.4em, $padding: true, $padding_v: 1.5em, $padding_h: 0.5em, $selector: '#block-system-main-menu') {
+
   #{$selector} ul.menu li a {
+    @include link-colors(#000, #999, #666, #000, #999);
     display: block;
     @if $font != '' { font-family: #{$font}; }
     font-weight: 700;
     font-size: #{$font_size};
+    text-transform: uppercase;
     @if $padding { padding: ($padding_v $padding_h) }
+  }
+  
+  #{$selector} ul.menu li + li {
+    margin-left: 1em;
   }
 }
 
 a { 
-  @include link-colors(#333, #999, #666, #000, #999);
+  @include link-colors(#21BCBE, #999, #666, #188A8C, #999);
   @include hover-link; 
 }
 
@@ -64,23 +71,42 @@ span[data-picture] img {
   font-size: $u;
 }
 
+.view-preview .views-field-field-preview-title {
+  h2 {
+    margin: 0;
+  }
+}
+
 .view-preview .views-field-field-preview-caption {
   font-size: percentage(0.8);
   margin-bottom: $u;
 }
 
-// Set the view Upcoming style
+// ********** Set the view Upcoming style
+.view-upcoming .views-row + .views-row {
+  margin-top: $u;
+}
+
 .view-upcoming .views-row  {
   .views-field {
     //@include inline-block();
     text-align: center;
+    min-height: 3em;
   }
+  
   
   .views-field-field-upcoming-date {
     @include span-columns(1, 5);
-    font-size: $u * 1.5;
     font-weight: 700;
     padding: $u * 0.25;
+    .date-year {
+      font-size: 1.2*$u;
+      line-height: 1.2*$u;
+    }
+    .date-month {
+      font-size: 0.9*$u;
+      line-height: $u;
+    }
   }
   
   .views-field-nothing {
@@ -102,7 +128,8 @@ span[data-picture] img {
 
 .l-header {
   border-bottom: 1px solid #000;
-  margin-bottom: $u;
+  margin-top: 0.5*$u;
+  margin-bottom: $u*2;
 }
 
 #breadcrumb {
@@ -157,7 +184,10 @@ span[data-picture] img {
   }
   
   // main menu
-  @include navigation-style('', $u*1.5, true, $u*0.5, $u*0.5);
+  @include navigation-style('', $u*1.4, true, $u*0.5, $u*0.5);
+  #block-system-main-menu {
+    margin-top: 19px;
+  }
   
   // view projects: sidebar menu when inside a node
   .view-projects {
@@ -167,7 +197,11 @@ span[data-picture] img {
   }
   
   // Set the view Upcoming style
-	.view-upcoming .views-row  {	  
+  
+  
+	.view-upcoming .views-row  {
+	  @include clearfix();
+	
 	  .views-field-field-upcoming-date {
 	    @include span-columns(1, 12);
 	  }
@@ -178,7 +212,20 @@ span[data-picture] img {
 	  
 	  .views-field-field-upcoming-link {
 	    @include span-columns(1 omega, 12);
+	    a {
+	     color: #f00;
+	     }
 	  }
+	}
+	
+	.l-content {
+	  h1 {
+	   margin: 1em 0 0 0;
+	  }
+	}
+	
+	.l-content, .l-header {
+	  @include clearfix();
 	}
 	
 	.l-footer {
